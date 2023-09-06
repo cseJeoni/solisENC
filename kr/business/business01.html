@@ -142,31 +142,73 @@
         
         <div class="sub-visual business"></div>
         
-        <div class="sub-menu-flex">
+        <div class="sub-menu-flex business">
           <div><h2> 사업분야 </h2> <hr class="my-3"></div>
-          <div id="workarea">
-            
-          
-              <!--start button, nothing above this is necessary -->
-              <div class="svg-wrapper">
-                <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-                  <rect id="shape" height="40" width="150" />
-                  <div id="text">
-                    <a href=""><span class="spot"></span>반도체장비</a>
-                  </div>
-                </svg>
-              </div>
-              <!--Next button -->
-              <div class="svg-wrapper">
-                <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-                  <rect id="shape" height="40" width="150" />
-                  <div id="text">
-                    <a href=""><span class="spot"></span>연구개발</a>
-                  </div>
-                </svg>
-              </div>
-              <!--End button -->
+          <div class="business-button-container">
+            <div class="business-button field1" onclick="viewField(1)">반도체장비</div>
+            <div class="business-button field2" onclick="viewField(2)"> 연구개발</div>
           </div>
+          <div class="field-box" id="field-section1">
+            <hr />
+            <h3>반도체장비</h3>
+            <div class="product-box-container">
+              <a href="#" class="product-box">Laser Notching</a>
+              <a href="#" class="product-box">Laser Half Slitter</a>
+              <a href="#" class="product-box">Tab Welding</a>
+            </div>
+            <hr />
+            <h3>이차전지장비</h3>
+            <div class="product-box-container explain">
+              <div class="text-explain">
+                <p>자동차 배터리는 전기차 동력원으로 사용되는 중대형 크기의 리튬 이온 배터리로, 리튬 이온이 양극, 음극 사이를 이동하며 전기를 생산해 충, 방전이 가능한 2차 전지 입니다. </p>
+
+<p>디이엔티는 이차전지 재료의 안정적인 공급과 고객 Needs에 따라 다양한 규격의 이차전지 제품을 생산 할 수 있도록 끊임 없는 연구 기술개발을 통해 경쟁력을 확보해 나가고 있으며 세계 초일류 이차전지 제조 공급장비 업체가 될 것을 약속 드립니다.</p>
+              </div>
+              <div class="img-explain">
+                <img src="../../assets/img/2차전지1.jpeg" class="product-img-sample"/>
+                <img src="../../assets/img/2차전지2.jpeg" class="product-img-sample"/>
+                <img src="../../assets/img/2차전지3.jpeg" class="product-img-sample"/>
+              </div>
+              
+            </div>
+          </div>
+          <div class="field-box" id="field-section2">
+            <hr />
+            <h3>OLED</h3>
+            <div class="product-box-container">
+              <a href="#" class="product-box">Laser Notching</a>
+              <a href="#" class="product-box">Laser Half Slitter</a>
+              <a href="#" class="product-box">Tab Welding</a>
+            </div>
+            <hr />
+            <h3>NANO LED</h3>
+            <div class="product-box-container">
+              <a href="#" class="product-box">Laser Notching</a>
+              <a href="#" class="product-box">Laser Half Slitter</a>
+              <a href="#" class="product-box">Tab Welding</a>
+            </div>
+            <hr />
+            <h3>기타</h3>
+            <div class="product-box-container">
+              <a href="#" class="product-box">Laser Notching</a>
+            </div>
+            <hr />
+            <h3>디스플레이의 발전 과정</h3>
+            <div class="product-box-container explain">
+              <div class="text-explain">
+                <p>자동차 배터리는 전기차 동력원으로 사용되는 중대형 크기의 리튬 이온 배터리로, 리튬 이온이 양극, 음극 사이를 이동하며 전기를 생산해 충, 방전이 가능한 2차 전지 입니다. </p>
+
+<p>디이엔티는 이차전지 재료의 안정적인 공급과 고객 Needs에 따라 다양한 규격의 이차전지 제품을 생산 할 수 있도록 끊임 없는 연구 기술개발을 통해 경쟁력을 확보해 나가고 있으며 세계 초일류 이차전지 제조 공급장비 업체가 될 것을 약속 드립니다.</p>
+              </div>
+              <div class="img-explain">
+                <img src="../../assets/img/2차전지1.jpeg" class="product-img-sample"/>
+                <img src="../../assets/img/2차전지2.jpeg" class="product-img-sample"/>
+                <img src="../../assets/img/2차전지3.jpeg" class="product-img-sample"/>
+              </div>
+              
+            </div>
+          </div>
+
         </div>
         
       </div>
@@ -261,7 +303,8 @@
   <script src="/assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="/assets/js/main.js"></script>
+  <script src="../../assets/js/main.js"></script>
+  <script src="business.js"></script>
 
 </body>
 
