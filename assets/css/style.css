@@ -126,7 +126,7 @@ ul .h5 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #191919;
+  background: white;
   font-size: 15px;
   height: 40px;
   padding: 0;
@@ -169,7 +169,7 @@ ul .h5 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #191919;
+  background: white;
   transition: all 0.3s;
   z-index: 997;
   height: 70px;
@@ -190,7 +190,7 @@ ul .h5 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: #44a2fa;
 }
 
 #header .logo img {
@@ -236,7 +236,8 @@ ul .h5 {
   justify-content: space-between;
   padding: 25px 15px 24px 15px;
   font-size: 16px;
-  color: #fff;
+  font-weight: 600;
+  color: black;
   white-space: nowrap;
   transition: opacity 0.3s ease-in .5s;
 }
@@ -252,7 +253,7 @@ ul .h5 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  background: #cc1616;
+  background: #44a2fa;
 }
 
 .navbar .dropdown ul {
@@ -265,7 +266,7 @@ ul .h5 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #191919;
+  background: white;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   
 }
@@ -276,7 +277,7 @@ ul .h5 {
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  color: white;
+  color: black;
 }
 
 .navbar .dropdown ul a i {
