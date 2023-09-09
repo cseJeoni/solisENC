@@ -172,11 +172,12 @@ ul .h5 {
   background: white;
   transition: all 0.3s;
   z-index: 997;
-  height: 70px;
+  height: 80px;
+  padding-bottom: 10px;
 }
 
 #header.fixed-top {
-  background: #191919;
+  background: white;
 }
 
 #header .logo {
@@ -253,7 +254,7 @@ ul .h5 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  background: #44a2fa;
+  background: lightgray;
 }
 
 .navbar .dropdown ul {
@@ -437,14 +438,13 @@ ul .h5 {
 #hero {
   width: 100%;
   height: calc(100vh - 110px);
-  background: url("../img/semi2.jpeg") top center;
+  background: url("../img/main-blue2.jpeg") top center;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -465,6 +465,19 @@ ul .h5 {
   color: #eee;
   margin-bottom: 30px;
   font-size: 20px;
+}
+
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-items-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 1024px) {
@@ -1279,7 +1292,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0c0c0c;
+  background: white;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1291,9 +1304,9 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #191919;
-  color: #fff;
-  border-top: 4px solid #cc1616;
+  background: white;
+  color: black;
+  border-top: 4px solid #44a2fa;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1329,7 +1342,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #cc1616;
+  background: #44a2fa;
   color: #fff;
   text-decoration: none;
 }
@@ -1354,7 +1367,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ed5b5b;
+  color: #44a2fa;
   font-size: 18px;
   line-height: 1;
 }
@@ -1370,14 +1383,14 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: black;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #eb4444;
+  color: #44a2fa;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1403,14 +1416,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #cc1616;
-  color: #fff;
+  background: #44a2fa;
+  color: black;
   transition: 0.3s;
   border-radius: 4;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #e82d2d;
+  background: #44a2fa;
 }
 
 #footer .copyright {
@@ -1423,11 +1436,11 @@ section {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: #fff;
+  color: black;
 }
 
 #footer .credits a {
-  color: #e82d2d;
+  color: #44a2fa;
 }
 
 @media (max-width: 575px) {
@@ -1491,7 +1504,7 @@ section {
 }
 
 .hero-icon-box:hover {
-  border-color: #cc1616;
+  border-color: #44a2fa;
   color: #fff;
   transition: 0.5s;
 }
@@ -1623,7 +1636,7 @@ input.check-toggle-round-flat:checked + label:after {
 }
 
 .h1-highlight {
-  color: #cc1616 !important;
+  color: #44a2fa !important;
 }
 
 .inner-nav > a {
@@ -1740,7 +1753,7 @@ input.check-toggle-round-flat:checked + label:after {
 }
 
 .nav:not(.nav-tabs) .nav-link.active {
-  color: #cc1616;
+  color: #44a2fa;
   font-weight: 700;
 }
 
@@ -1750,7 +1763,7 @@ input.check-toggle-round-flat:checked + label:after {
 }
 
 .nav a:hover {
-  color: #cc1616;
+  color: #44a2fa;
 }
 
 .sub-visual.ceo:not(.sub-wrap) {
@@ -1809,8 +1822,8 @@ input.check-toggle-round-flat:checked + label:after {
 }
 
 .recruit-box {
-  margin-left: 7rem;
-  margin-right: 7rem;
+  width: 80%;
+  margin: 0 auto;
   text-align: left;
 }
 
@@ -1899,7 +1912,7 @@ input.check-toggle-round-flat:checked + label:after {
 }
 
 .product-item:hover {
-  outline: 3px solid #cc1616;
+  outline: 3px solid #44a2fa;
   transition: 0.5s;
   
 }
@@ -2483,7 +2496,7 @@ make it thinner, then set it to again wrap around the entire parent element.
 }
 
 .field1 {
-  background-color: #cc1616;
+  background-color: #44a2fa;
 
 }
 
@@ -2508,7 +2521,7 @@ make it thinner, then set it to again wrap around the entire parent element.
   display: flex;
   font-size: 27px;
   font-weight: 600;
-  color: #cc1616;
+  color: #44a2fa;
   margin-bottom: 50px;
   align-items: start;
 }
@@ -2516,7 +2529,7 @@ make it thinner, then set it to again wrap around the entire parent element.
 .field-box hr {
   display: flex;
   width: 2%;
-  border: 1.5px solid #cc1616;
+  border: 1.5px solid #44a2fa;
   opacity: 100 !important;
   margin-top: 50px;
 }
@@ -2564,10 +2577,11 @@ make it thinner, then set it to again wrap around the entire parent element.
 }
 
 .product-item:hover .product-item-title {
-	color: #cc1616;
+	color: #44a2fa;
 }
 
 .process-margin {
   margin-top: 100px;
   margin-bottom: 170px;
 }
+
